@@ -21,23 +21,27 @@ print("Hello,", user_input)
 # Practical task 3.
 
 # Constants.
-MESSAGE = "Git is awesome!"
+# Defining a constant message to be printed.
+MESSAGE = "Git is awesome!" 
 
 # Function to print the message.
 def print_message():
-	"""Print the predefined message."""
+	# Print the predefined message.
 	print(MESSAGE)
 
 # Main function.
 def main():
-	"""Entry point of the program."""
+	# Entry point of the program.
 	try:
+		# Calling the function to print the message. 
 		print_message()
 	except Exception as e:
+		# Handling any exceptions that occur. 
 		print("An error occured:".e)
 
 # Execute the main function if the script is running directly.
 if __name__ == "__main__":
+	# Caling the main function to start the program.
 	main()
 
 
