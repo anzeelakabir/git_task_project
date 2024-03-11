@@ -31,10 +31,14 @@ def print_message():
 # Main function.
 def main():
 	"""Entry point of the program."""
-	print_message()
+	try:
+		print_message()
+	except Exception as e:
+		print("An error occured:".e)
 
 # Execute the main function if the script is running directly.
 if __name__ == "__main__":
 	main()
+
 
 
